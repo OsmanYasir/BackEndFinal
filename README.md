@@ -28,6 +28,7 @@ So basicly I used swagger to get the informations from the users as shown below:
 
 
 ## Front Page
+- Link: https://cs204backendfinal.herokuapp.com/
 
 There is a naviagation bar which consists of main page, add info where you can add information if you are admin, about api where you can check the api
 
