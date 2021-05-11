@@ -1,0 +1,68 @@
+.img-container{
+    text-align: center;
+}
+.card-img-top{
+    height: 70%;
+
+}
+.card-img-top1{
+    height: 200px;
+    width: 200px;
+}
+
+.card {display:inline-block;}
+
+/*.head1:root{*/
+/*    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));*/
+/*}*/
+.navbar{
+    /* fallback for old browsers */
+    background: #07bbaf;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, rgba(7, 187, 175, 1), rgba(109, 31, 158, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, rgba(7, 187, 175, 1), rgba(109, 31, 158, 1))
+}
+
+body{
+    background: #07bbaf;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, rgba(7, 187, 175, 0.75), rgba(109, 31, 158, 0.75));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, rgba(7, 187, 175, 0.75), rgba(109, 31, 158, 0.75))
+}
+.text-muted{
+    background: #07bbaf;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, rgba(7, 187, 175, 1), rgba(109, 31, 158, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, rgba(7, 187, 175, 1), rgba(109, 31, 158, 1))
+}
+.card{
+    background: white;
+}
+.alert{
+    background: white;
+
+}
+.btn{
+    background: #07bbaf;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, rgba(7, 187, 175, 1), rgba(109, 31, 158, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, rgba(7, 187, 175, 1), rgba(109, 31, 158, 1))
+}
+
+.alert1 {
+    background: white;
+    /*display: flex;*/
+    /*flex: 1 1 auto;*/
+}

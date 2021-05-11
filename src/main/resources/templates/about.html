@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <header th:replace="blocks/header2 :: header2"></header>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="van.css">
+
+    <title>Short Description about API</title>
+</head>
+<body>
+<div class="jumbotron"><h1>How the API works</h1>
+    <p>To access data by <b>REST API</b>  entry point is /teachers <br>
+        You can send <b>POST</b> requests to /teachers/add to add teachers.<br>
+        To get a specific teacher with id send a <b>GET</b> request or visit /teachers/{Insert_ID_Number}<br>
+        To get all teachers you can visit or send a <b>GET</b> request to /teachers/all.<br>
+        To delete a teacher with specific id send a <b>DELETE</b> request to /teachers/{Insert_ID_Number}<br>
+        To replace a specific id send a <b>PUT</b> request to /teachers/{Insert_ID_Number}<br>
+    </p>
+
+
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

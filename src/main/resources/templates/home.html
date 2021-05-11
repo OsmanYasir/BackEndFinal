@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Mainpage</title>
+    <header th:replace="blocks/header2 :: header2"></header>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="van.css">
+</head>
+<body>
+<div class="jumbotron">
+    <div class="container" ng-app="tabApp">
+        <div class="row" ng-controller="TabController">
+            <div class="col-md-8">
+                <div class="jumbotron">
+                    <div ng-show="isSet(1)">
+                        <h1>Home Page</h1>
+                        <b>Ala-Too University</b>
+                        <p>
+                            The state governing body of the university is the Ministry of Education and Science of the Kyrgyz Republic.
+                            The founder of Ala-Too International University is Sapat International Educational Institutions.
+                            Ala-Too International University (AIU) was established in 1996 and it is located in Bishkek, the Kyrgyz Republic.
+                            AIU is a legal entity, carries out its activities in accordance with the legislation of the Kyrgyz Republic..</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wpe1kuOk6kA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <b> Teachers</b>
+                    <p>
+                        A teacher (also called a schoolteacher or formally, an educator) is a person who helps students to acquire knowledge, competence or virtue.
+                        Informally the role of teacher may be taken on by anyone (e.g. when showing a colleague how to perform a specific task).
+                        In some countries, teaching young people of school age may be carried out in an informal setting, such as within the family (homeschooling), rather than in a formal setting such as a school or college.
+                        Some other professions may involve a significant amount of teaching
+                    </p>
+                    <br>
+                    <br>
+                    <p> So , I have thought of making a database which will help Ala-Too University save teachers datas.
+                        Where only admin  can add the data but if you as a user want to add data then please go to
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+<footer th:replace="blocks/footer :: footer"></footer>
+</html>
