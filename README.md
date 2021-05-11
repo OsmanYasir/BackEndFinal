@@ -22,6 +22,16 @@ So basicly I used swagger to get the informations from the users as shown below:
 ![Caposmn](https://user-images.githubusercontent.com/64580490/117890988-f569da80-b2d7-11eb-8609-9614d6e23868.PNG)
 
 
-
  
 - Link: https://cs204backendfinal.herokuapp.com/swagger-ui/#/
+
+
+
+## Front Page
+
+There is a naviagation bar which consists of main page, add info where you can add information if you are admin, about api where you can check the api
+
+And finally the user profile button where you can check your profile. The most right button is the log out button.
+![Captureosmn4](https://user-images.githubusercontent.com/64580490/117893533-69a67d00-b2dc-11eb-860b-33388525b514.PNG)
+
+
